@@ -7,9 +7,9 @@
 
 **The purpose of this bot is to provide an all-encompasing administrative bot for discord servers to reduce bot clutter.**
 
-> *Current version 1.0.1*
+> *Current version 2.0.0*
 
-> *Current beta 1.9*
+> *Current beta 2.0.0*
 
 ---------------------------------------------------------------------------------------------------------------------------
 
@@ -45,9 +45,9 @@ Justin Yates & Azrael
 
 > - [License](#license)
 
-> - [v1.0.0 (stable)](#v1)
+> - [v1.0.0 (previous)](#v1)
 
-> - [v2.0.0 (in development)](#v2)
+> - [v2.0.0 (stable)](#v2)
 
 > - [v3.0.0](#v3)
 
@@ -101,7 +101,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 - [x] giveaways
 - [x] create role function
 - [x] delete role function
-- [x] bot updater (notifies channel log when bot will be down as well as new versions and features.)
+- bot updater (notifies channel log when bot will be down as well as new versions and features.) *(suspended until further notice)*
 
 ---------------------------------------------------------------------------------------------------------------------------
 
@@ -114,6 +114,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 - support ticket
 - captcha verification
 - dice rolls
+- upvote / downvote reactions to specific messages
 
 ---------------------------------------------------------------------------------------------------------------------------
 
@@ -136,7 +137,6 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 - message delete/change log
 - role specific functionality
 - leveling
-- upvote / downvote reactions to specific channels
 
 ---------------------------------------------------------------------------------------------------------------------------
 
@@ -148,6 +148,12 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 January 8, 2021
 
 - certain logs do not indicate targets (such as the nuke command)
+
+- need to be able to target a channel in the delete channel command instead of having to run the command in the channel
+
+- need to fix announce command to include channels that people specify with # as well as other commands that function off of @roles and #channels
+
+- most logs do not specify what user invoked the command
 
 
 ---------------------------------------------------------------------------------------------------------------------------
